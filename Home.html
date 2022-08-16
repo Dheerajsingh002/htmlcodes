@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        #Home {
+            border: 5px solid black;
+            background-color: black;
+            height: 700px;
+            width: 95%;
+            margin-top: 5%;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            flex: auto;
+        
+        }
+
+        .minicontainer li {
+            list-style-type: none;
+            float: left;
+            margin: 30px;
+            font-size: 30px;
+        }
+
+        .minicontainer li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .minicontainer li a:hover {
+            font-size: 35px;
+            color: rgb(0, 255, 255);
+        }
+
+        .minicontainer {
+            background-color: rgb(190, 45, 45);
+            height: 100px;
+            display: flex;
+            justify-content: right;
+            margin-left: auto;
+            margin-right: auto;
+            /* position: fixed; */
+        }
+
+        .first {
+            border: 5px solid rgb(87, 72, 72);
+            height: 100px;
+            width: 1000px;
+            margin: auto;
+            margin-top: 20px;
+            border-radius: 30px;
+
+        }
+
+        .second {
+            /* border:5px solid rgb(87, 72, 72); */
+            height: 300px;
+            width: 500px;
+            margin-top: 60px;
+            border-radius: 30px;
+            margin-left: 10%;
+
+        }
+
+        .third {
+            border: 5px solid rgb(87, 72, 72);
+            height: 300px;
+            width: 1000px;
+            margin-top: 60px;
+            border-radius: 30px;
+            margin-left: 40%;
+            margin-top: -16%;
+
+        }
+
+        .fourth {
+            border: 5px solid rgb(87, 72, 72);
+            height: 100px;
+            width: 1000px;
+            margin: auto;
+            margin-top: 60px;
+            border-radius: 30px;
+
+        }
+
+        .first p {
+            font-size: 40px;
+            text-align: center;
+            color: white;
+        }
+
+        .first p:hover {
+            color: yellow;
+        }
+
+        .second img {
+            width: 500px;
+            height: 300px;
+            border-radius: 30px;
+        }
+
+        .third p {
+            color: white;
+            text-align: center;
+            margin-top: 6%;
+        }
+
+        .third h1 {
+            color: white;
+            /* text-align: center; */
+            /* margin-top: 6%; */
+            margin-left: 10px;
+        }
+
+        .third h2 {
+            color: white;
+            margin-left: 10px;
+            /* text-align: center; */
+            /* margin-top: 6%; */
+        }
+
+        #name {
+            color: red;
+        }
+
+        .fourth p {
+            color: white;
+            text-align: center;
+        }
+        #About{
+            border: 5px solid black;
+            background-color: black;
+            height: 700px;
+            width: 95%;
+            margin-top: 6%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .one{
+            border: 5px solid rgb(87, 72, 72);
+            height: 100px;
+            width: 1000px;
+            margin: auto;
+            margin-top: 20px;
+            border-radius: 30px;
+
+        }
+        .two{
+            border:5px solid rgb(87, 72, 72);
+            height: 480px;
+            width: 800px;
+            margin-top: 60px;
+            border-radius: 30px;
+            margin-left: 5%;
+
+        }
+        .three{
+            border:5px solid rgb(87, 72, 72);
+            height: 480px;
+            width: 800px;
+            margin-top: 60px;
+            border-radius: 30px;
+            margin-left: 54%;
+            margin-top: -26%;
+
+        }
+        .one p {
+            font-size: 40px;
+            text-align: center;
+            color: white;
+        }
+        .two p{
+            text-align: center;
+            font-size: 30px;
+            color: white;
+            padding: 20px;
+        }
+        .d{
+            color: red;
+        }
+        .three p{
+            text-align: center;
+            font-size: 30px;
+            color: white;
+            padding: 40px;
+        }
+        .one p:hover{
+            color: red;
+        }
+        #Service{
+            border: 5px solid black;
+            background-color: black;
+            height: 700px;
+            width: 95%;
+            margin-top: 6%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .A{
+            border: 5px solid rgb(87, 72, 72);
+            height: 100px;
+            width: 1000px;
+            margin: auto;
+            margin-top: 20px;
+            border-radius: 30px;
+
+        }
+        .B {
+            border:5px solid rgb(87, 72, 72);
+            height: 470px;
+            width: 500px;
+            margin-top: 60px;
+            border-radius: 30px;
+            margin-left: 10%;
+
+        }
+        .C {
+            border: 5px solid rgb(87, 72, 72);
+            height: 470px;
+            width: 1000px;
+            margin-top: 60px;
+            border-radius: 30px;
+            margin-left: 40%;
+            margin-top: -26%;
+
+        }
+        .A p {
+            font-size: 40px;
+            text-align: center;
+            color: white;
+        }
+        .A p:hover{
+            color: blueviolet;
+            font-size: 45px;
+        }
+        #Contect{
+            border: 5px solid black;
+            background-color: black;
+            height: 700px;
+            width: 95%;
+            margin-top: 6%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .X{
+            border: 5px solid rgb(87, 72, 72);
+            height: 100px;
+            width: 1000px;
+            margin: auto;
+            margin-top: 20px;
+            border-radius: 30px;
+
+        }
+        .Y {
+            border:5px solid rgb(87, 72, 72);
+            height: 470px;
+            width: 1500px;
+            margin-top: 60px;
+            border-radius: 30px;
+            margin-left: 10%;
+
+        }
+        .X p {
+            font-size: 40px;
+            text-align: center;
+            color: white;
+        }
+        .X p:hover{
+            color: rgb(220, 19, 167);
+            font-size: 45px;
+        }
+        .Y p{
+            font-size: 30px;
+            color: purple;
+            margin-left: 30px;
+        }
+        #z{
+            font-size: 30px;
+            margin-left:30px ;
+            color: white;
+        }
+        input{
+            width:900px;
+            height: 40px;
+            border-radius: 30px;
+            background-color: rgb(66, 55, 55);
+            margin: 10px;
+            border:5px solid rgb(24, 215, 180);
+            padding-left: 30px;
+        }
+        .m{
+            border:5px solid rgb(24, 215, 180);
+            width:930px;
+            height: 80px;
+            margin: 20px;
+            border-radius: 30px;
+            background-color: rgb(41, 37, 37);
+            padding-left: 10px;
+        }  
+        #i{
+            color: white;
+        } 
+        .B p{
+            text-align: center;
+            font-size: 30px;
+            color: rgba(222, 25, 25, 0.945)
+        }  
+        #e{
+            color: white;
+        } 
+        .C p{
+            text-align: center;
+            font-size: 30px;
+            color: rgba(243, 118, 15, 0.945)
+
+        }
+        #n{
+            color: white;
+            font-size: 30px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="minicontainer">
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About us</a></li>
+            <li><a href="#Service">Services</a></li>
+            <li><a href="#Contect">Contects</a></li>
+        </ul>
+    </div>
+    <div id="Home">
+        <div class="first">
+            <p>Home Page</p>
+
+
+        </div>
+        <div class="second">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI6QOp3aQhW6YfJsoBV_xv3JfEoX6URfvKUw&usqp=CAU"
+                alt="">
+
+        </div>
+        <div class="third">
+            <h1>Hello</h1>
+            <h2>I am <span id="name">Dheeraj Singh</span></h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, perferendis corporis ut asperiores
+                harum quod esse dolor consequatur maxime repudiandae qui blanditiis aliquam nesciunt corrupti. Aliquam
+                ratione, nisi laborum repellat voluptatum impedit vel ex tempore quas quia architecto velit totam. Porro
+                et iure dolorum esse ex! Itaque eius doloremque dolorem alias voluptatibus ad consectetur voluptate a
+                aperiam, debitis expedita accusamus. Pariatur repellat magni hic, ullam neque corrupti laudantium magnam
+                atque.</p>
+        </div>
+        <div class="fourth">
+            <img src="" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis illum odit dolore mollitia iure blanditiis
+                aliquid sint iste laboriosam maxime earum, necessitatibus, nostrum sunt facilis, eum omnis eligendi
+                incidunt ad.</p>
+        </div>
+    </div>
+    <div id="About"> 
+        <div class="one">
+            <p>About Us</p>
+        </div>
+        <div class="two">
+            <p>Developer & <span class="d">Designer</span></p>
+            <p>I am a frnt-end web Developer.I can provide clean code and perfect pixel design.I also Make the Website more and more interactive with web animations.I can Provide clean code and pixel perfect design.A responsive design make your website acessibleto all users,regardless of  their device</p>
+        </div>
+        <div class="three">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, eaque recusandae. Perspiciatis voluptate iure temporibus molestiae laudantium dolorum obcaecati, autem ipsum nesciunt aliquid laboriosam accusamus quidem commodi eveniet at minima nam voluptatum pariatur veritatis veniam enim ea. A, quae incidunt.</p>
+        </div>
+    </div>
+    <div id="Service">
+        <div class="A">
+            <p>Services</p>
+
+        </div>
+        <div class="B">
+            <p>Web Design</p>
+            <p id="e">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis placeat assumenda quidem alias deleniti, quo sequi quia itaque officia at ipsum asperiores sed praesentium a facilis numquam iste nisi vitae culpa vero reprehenderit veniam unde. Illo aliquid iste a accusamus.</p>
+
+        </div>
+        <div class="C">
+            <p>Graphic Design</p>
+            <p id="n">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi vel non saepe deserunt voluptatibus perspiciatis ducimus, cumque omnis necessitatibus incidunt laudantium asperiores culpa consectetur nisi autem illo ea, ipsum quaerat obcaecati! Quasi, aspernatur cupiditate. Eveniet corrupti, animi excepturi itaque iure nihil totam obcaecati magnam eligendi ipsum sit asperiores cupiditate doloremque deleniti. Repudiandae odit voluptatum, non aperiam consequatur expedita perspiciatis quod repellendus, nobis saepe aspernatur et eum quia inventore tempora molestias fugiat deserunt rerum dolore at iste adipisci nemo! Debitis, animi.</p>
+
+        </div>
+
+    </div>
+    <div id="Contect">
+        <div class="X">
+            <p>Contect Us</p>
+
+        </div>
+        <div class="Y">
+            <p>Send us a message</p>
+            <p id="z">If you work from me or any types of queries related to my tutorial,you can send me message from here.it's my pleasure to help you</p>
+            <input type="text" placeholder="Enter your name">
+            <input type="text" name="" id="" placeholder="Enter your Email"> 
+            <div class="m">
+                <p id="i">Enter your message</p>
+
+            </div>
+        </div>
+        
+
+    </div>
+
+</body>
+
+</html>
