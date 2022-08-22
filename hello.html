@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            margin-left: auto;
+            margin-right: auto;
+        }
+         .gallery{
+            background-color: orange;
+            box-shadow: 7px  10px 10px violet;
+            height: 500px;
+            width: 300px;
+            float: left;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: example;
+            animation-duration: 2s;
+            animation-delay: 1s;
+            /* animation-timing-function: ease-in;
+             */
+             animation-iteration-count: infinite;
+        }
+        .gallery1{
+            background-color: red;
+            box-shadow: 7px  10px 10px yellow;
+            height: 500px;
+            width: 300px;
+            float: left;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: example1;
+            animation-duration: 2s;
+            animation-delay: 1s;
+             animation-iteration-count: infinite;
+        }
+        .gallery2{
+            background-color:green;
+            box-shadow: 7px  10px 10px red;
+            height: 500px;
+            width: 300px;
+            float: left;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: example2;
+            animation-duration: 2s;
+            animation-delay: 1s;
+             animation-iteration-count: infinite;
+        }
+        .gallery3{
+            background-color: yellow;
+            box-shadow: 7px  10px 10px purple;
+            height: 500px;
+            width: 300px;
+            float: left;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: example3;
+            animation-duration: 2s;
+            animation-delay: 1s;
+             animation-iteration-count: infinite;
+        }
+        .gallery4{
+            background-color: purple;
+            box-shadow: 7px  10px 10px yellow;
+            height: 500px;
+            width: 300px;
+            float: left;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: example4;
+            animation-duration: 2s;
+            animation-delay: 1s;
+             animation-iteration-count: infinite;
+        }
+        .gallery5{
+            background-color: pink;
+            box-shadow: 7px  10px 10px red;
+            height: 500px;
+            width: 300px;
+            float: left;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: example5;
+            animation-duration: 2s;
+            animation-delay: 1s;
+             animation-iteration-count: infinite;
+        }
+        @keyframes example{
+            0%{background-color: green;box-shadow: 7px 10px 10px red;}
+            25%{box-shadow: 7px 10px 10px yellow;;background-color: blue;}
+            50%{
+                background-color: yellow;
+                box-shadow: 7px 10px 10px orange;
+            }
+            75%{background-color: aqua;box-shadow: 7px 10px 10px pink;}
+            100%{background-color: black;box-shadow: 7px 10px 10px purple;}
+        }
+        @keyframes example1{
+            0%{background-color: aquamarine;box-shadow: 7px 10px 10px red;}
+            25%{box-shadow: 7px 10px 10px yellow;;background-color: green;}
+            50%{
+                background-color: yellow;
+                box-shadow: 7px 10px 10px orange;
+            }
+            75%{background-color: rgb(255, 234, 0);box-shadow: 7px 10px 10px pink;}
+            100%{background-color: rgb(92, 4, 4);box-shadow: 7px 10px 10px purple;}
+        }
+        @keyframes example2{
+            0%{background-color: rgb(119, 0, 128);box-shadow: 7px 10px 10px red;}
+            25%{box-shadow: 7px 10px 10px yellow;;background-color: rgb(0, 149, 255);}
+            50%{
+                background-color: yellow;
+                box-shadow: 7px 10px 10px rgb(0, 217, 255);
+            }
+            75%{background-color: aqua;box-shadow: 7px 10px 10px pink;}
+            100%{background-color: black;box-shadow: 7px 10px 10px purple;}
+        }
+        @keyframes example3{
+            0%{background-color: green;box-shadow: 7px 10px 10px red;}
+            25%{box-shadow: 7px 10px 10px yellow;;background-color: blue;}
+            50%{
+                background-color: yellow;
+                box-shadow: 7px 10px 10px orange;
+            }
+            75%{background-color: aqua;box-shadow: 7px 10px 10px pink;}
+            100%{background-color: black;box-shadow: 7px 10px 10px purple;}
+        }
+        @keyframes example4{
+            0%{background-color: green;box-shadow: 7px 10px 10px red;}
+            25%{box-shadow: 7px 10px 10px yellow;;background-color: blue;}
+            50%{
+                background-color: yellow;
+                box-shadow: 7px 10px 10px orange;
+            }
+            75%{background-color: aqua;box-shadow: 7px 10px 10px pink;}
+            100%{background-color: black;box-shadow: 7px 10px 10px purple;}
+        }
+        @keyframes example5{
+            0%{background-color: green;box-shadow: 7px 10px 10px red;}
+            25%{box-shadow: 7px 10px 10px yellow;;background-color: blue;}
+            50%{
+                background-color: yellow;
+                box-shadow: 7px 10px 10px rgb(255, 0, 72);
+            }
+            75%{background-color: aqua;box-shadow: 7px 10px 10px rgb(192, 255, 250);}
+            100%{background-color: black;box-shadow: 7px 10px 10px rgb(21, 0, 128);}
+        }
+        
+        .gallery:hover{
+            transform: scale(0.8);
+            transform: rotate(20deg);
+        }
+        .gallery1:hover{
+            transform: scale(0.8);
+            transform: rotate(20deg);
+        }
+        .gallery2:hover{
+            transform: scale(0.8);
+            transform: rotate(20deg);
+        }
+        .gallery3:hover{
+            transform: scale(0.8);
+            transform: rotate(20deg);
+        }
+        .gallery4:hover{
+            transform: scale(0.8);
+            transform: rotate(20deg);
+        }
+        .gallery5:hover{
+            transform: scale(0.8);
+            transform: rotate(20deg);
+        }
+
+
+        .gallery6{
+            background-color: orange;
+            box-shadow: 7px  10px 10px violet;
+            height: 500px;
+            width: 300px;
+            float: left;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: example6;
+            animation-duration: 2s;
+            animation-delay: 1s;
+            /* animation-timing-function: ease-in;
+             */
+             animation-iteration-count: infinite;
+        }
+        .gallery7{
+            background-color: red;
+            box-shadow: 7px  10px 10px yellow;
+            height: 500px;
+            width: 300px;
+            float: left;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: example7;
+            animation-duration: 2s;
+            animation-delay: 1s;
+             animation-iteration-count: infinite;
+        }
+        .gallery8{
+            background-color:green;
+            box-shadow: 7px  10px 10px red;
+            height: 500px;
+            width: 300px;
+            float: left;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: example8;
+            animation-duration: 2s;
+            animation-delay: 1s;
+             animation-iteration-count: infinite;
+        }
+        .gallery9{
+            background-color: yellow;
+            box-shadow: 7px  10px 10px purple;
+            height: 500px;
+            width: 300px;
+            float: left;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: example9;
+            animation-duration: 2s;
+            animation-delay: 1s;
+             animation-iteration-count: infinite;
+        }
+        .gallery10{
+            background-color: purple;
+            box-shadow: 7px  10px 10px yellow;
+            height: 500px;
+            width: 300px;
+            float: left;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: example10;
+            animation-duration: 2s;
+            animation-delay: 1s;
+             animation-iteration-count: infinite;
+        }
+        .gallery11{
+            background-color: pink;
+            box-shadow: 7px  10px 10px red;
+            height: 500px;
+            width: 300px;
+            float: left;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: example11;
+            animation-duration: 2s;
+            animation-delay: 1s;
+             animation-iteration-count: infinite;
+        }
+        @keyframes example6{
+            0%{background-color: green;box-shadow: 7px 10px 10px red;}
+            25%{box-shadow: 7px 10px 10px yellow;;background-color: blue;}
+            50%{
+                background-color: yellow;
+                box-shadow: 7px 10px 10px orange;
+            }
+            75%{background-color: aqua;box-shadow: 7px 10px 10px pink;}
+            100%{background-color: black;box-shadow: 7px 10px 10px purple;}
+        }
+        @keyframes example7{
+            0%{background-color: aquamarine;box-shadow: 7px 10px 10px red;}
+            25%{box-shadow: 7px 10px 10px yellow;;background-color: green;}
+            50%{
+                background-color: yellow;
+                box-shadow: 7px 10px 10px orange;
+            }
+            75%{background-color: rgb(255, 234, 0);box-shadow: 7px 10px 10px pink;}
+            100%{background-color: rgb(92, 4, 4);box-shadow: 7px 10px 10px purple;}
+        }
+        @keyframes example8{
+            0%{background-color: rgb(119, 0, 128);box-shadow: 7px 10px 10px red;}
+            25%{box-shadow: 7px 10px 10px yellow;;background-color: rgb(0, 149, 255);}
+            50%{
+                background-color: yellow;
+                box-shadow: 7px 10px 10px rgb(0, 217, 255);
+            }
+            75%{background-color: aqua;box-shadow: 7px 10px 10px pink;}
+            100%{background-color: black;box-shadow: 7px 10px 10px purple;}
+        }
+        @keyframes example9{
+            0%{background-color: green;box-shadow: 7px 10px 10px red;}
+            25%{box-shadow: 7px 10px 10px yellow;;background-color: blue;}
+            50%{
+                background-color: yellow;
+                box-shadow: 7px 10px 10px orange;
+            }
+            75%{background-color: aqua;box-shadow: 7px 10px 10px pink;}
+            100%{background-color: black;box-shadow: 7px 10px 10px purple;}
+        }
+        @keyframes example10{
+            0%{background-color: green;box-shadow: 7px 10px 10px red;}
+            25%{box-shadow: 7px 10px 10px yellow;;background-color: blue;}
+            50%{
+                background-color: yellow;
+                box-shadow: 7px 10px 10px orange;
+            }
+            75%{background-color: aqua;box-shadow: 7px 10px 10px pink;}
+            100%{background-color: black;box-shadow: 7px 10px 10px purple;}
+        }
+        @keyframes example11{
+            0%{background-color: green;box-shadow: 7px 10px 10px red;}
+            25%{box-shadow: 7px 10px 10px yellow;;background-color: blue;}
+            50%{
+                background-color: yellow;
+                box-shadow: 7px 10px 10px rgb(255, 0, 72);
+            }
+            75%{background-color: aqua;box-shadow: 7px 10px 10px rgb(192, 255, 250);}
+            100%{background-color: black;box-shadow: 7px 10px 10px rgb(21, 0, 128);}
+        }
+        
+        .gallery6:hover{
+            transform: scale(0.8);
+            transform: rotateX(30deg);
+        }
+        .gallery7:hover{
+            transform: scale(0.8);
+            transform: rotateX(35deg);
+        }
+        .gallery8:hover{
+            transform: scale(0.8);
+            transform: rotateX(40deg);
+        }
+        .gallery9:hover{
+            transform: scale(0.8);
+            transform: rotateX(45deg);
+        }
+        .gallery10:hover{
+            transform: scale(0.8);
+            transform: rotateX(50deg);
+        }
+        .gallery11:hover{
+            transform: scale(0.8);
+            transform: rotateX(55deg);
+        }
+        
+        
+        @media screen and (max-width:1080){
+            div img{
+                flex-wrap: wrap;
+                
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <img src="https://user-images.githubusercontent.com/94373786/185556029-ae1cc759-d84b-4b9a-b717-91e4d11a4645.jpg" height="400" width="200">
+    </div>
+    <div class="gallery1">
+        <img src="https://user-images.githubusercontent.com/94373786/185556029-ae1cc759-d84b-4b9a-b717-91e4d11a4645.jpg" height="400" width="200">
+    </div>
+    <div class="gallery2">
+        <img src="https://user-images.githubusercontent.com/94373786/185556029-ae1cc759-d84b-4b9a-b717-91e4d11a4645.jpg" height="400" width="200">
+    </div>
+    <div class="gallery3">
+        <img src="https://user-images.githubusercontent.com/94373786/185556029-ae1cc759-d84b-4b9a-b717-91e4d11a4645.jpg" height="400" width="200">
+    </div>
+    <div class="gallery4">
+        <img src="https://user-images.githubusercontent.com/94373786/185556029-ae1cc759-d84b-4b9a-b717-91e4d11a4645.jpg" height="400" width="200">
+    </div>
+    <div class="gallery5">
+        <img src="https://user-images.githubusercontent.com/94373786/185556029-ae1cc759-d84b-4b9a-b717-91e4d11a4645.jpg" height="400" width="200">
+    </div>
+    <div class="gallery6">
+        <img src="https://user-images.githubusercontent.com/94373786/185556029-ae1cc759-d84b-4b9a-b717-91e4d11a4645.jpg" height="400" width="200">
+    </div>
+    <div class="gallery7">
+        <img src="https://user-images.githubusercontent.com/94373786/185556029-ae1cc759-d84b-4b9a-b717-91e4d11a4645.jpg" height="400" width="200">
+    </div>
+    <div class="gallery8">
+        <img src="https://user-images.githubusercontent.com/94373786/185556029-ae1cc759-d84b-4b9a-b717-91e4d11a4645.jpg" height="400" width="200">
+    </div>
+    <div class="gallery9">
+        <img src="https://user-images.githubusercontent.com/94373786/185556029-ae1cc759-d84b-4b9a-b717-91e4d11a4645.jpg" height="400" width="200">
+    </div>
+    <div class="gallery10">
+        <img src="https://user-images.githubusercontent.com/94373786/185556029-ae1cc759-d84b-4b9a-b717-91e4d11a4645.jpg" height="400" width="200">
+    </div>
+    <div class="gallery11">
+        <img src="https://user-images.githubusercontent.com/94373786/185556029-ae1cc759-d84b-4b9a-b717-91e4d11a4645.jpg" height="400" width="200">
+    </div>
+    
+</body>
+</html>
