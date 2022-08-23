@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <style>
+        h1{
+            animation-name: example;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes example{
+            0%{
+                color: yellow;
+            }
+            25%{
+                color:rgb(12, 229, 237)
+            }
+            50%{
+                color:purple
+            }
+            75%{
+                color:aliceblue;
+
+            }
+            100%{
+                color:orange
+            }
+        }
+        ol:hover{
+            font-size: 30px;
+            color: red;
+            margin-left: 1%;
+        }
+        ul:hover{
+            color: green;
+            font-size: 30px;
+            margin-left: 1%;
+            
+
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Red Color Represent Ordered list</h1>
+    <h1>Green Color Represent Ordered list</h1>
+    <h1>OL within OL</h1>
+    <ol type="A">
+        <b><li>About</li></b>
+        <ol>
+            <li>Home</li>
+            <li>About me</li>
+            <li>Portfolio</li>
+            <li>Contects</li>
+        </ol>
+    </ol>
+    <h1>UL with in UL</h1>
+    <ul>
+        <b><li>Cold Drinks</li></b>
+        <ul>
+            <li>sprite</li>
+            <li>cococola</li>
+            <li>lassi</li>
+        </ul>
+    </ul>
+    <h1>OL within UL</h1>
+    <ol type="I">
+        <b><li >Food</li></b>
+        <ul>
+            <li>momo</li>
+            <li>pizza</li>
+            <li>daal roti</li>
+        </ul>
+        <b><li>Watch</li></b>
+        <ul>
+            <li>Sonata</li>
+            <li>rolex</li>
+            <li>reebok</li>
+        </ul>
+        
+    </ol>
+    <h1>UL with in OL</h1>
+    <ul>
+        <b><li>Games</li></b>
+        <ol>
+            <li>Cricket</li>
+            <li>Hockey</li>
+            <li>Valleyball</li>
+        </ol>
+    </ul>
+
+    <dl>
+        <b><dt>Games</dt></b>
+        <dd>1.cricket</dd>
+        <dd>2.hockey</dd>
+        <dd>3.badminton</dd>
+           </dl>
+    
+    
+</body>
+</html>
