@@ -5,4 +5,76 @@
 -Background
 -Text/Content
 
+----HTML LIST-----
+   -coolection of Items
+   -Types of list:-
+    1.ordered
+    2.unordered
+    3.Discripted list
+--Ordered list
+  -used to Display items in sequence
+  -Tags:-
+    -OL--ordered nList
+    --Parent Element -- paired Tag
+    --LI-List Item --Child Elemnt of OL
+--Descriptive LList:-
+ -used to DIsplay list with some information.
+ -Tags:-
+    DL--Derscriptive List --parent Element
+    DT--Descriptive Name--Child Element OF DL
+    DD--Description Detail ----Used to give information
+HTML Caomputer Code:-
+  -used to Display code
+  -Used to display the sample input or sample output
+  -uded to disply the content getting from the user during run time.
+  --Tags:-
+   1.<code> :-
+        -paired Tag
+        -used to print the code.
+        -content displayed in otput varies from normal output.
+        -Font style and font size may vary
+        -Syntax
+         <code>Program Logic</code>
+        -for example:-
+  --Variables
+   -used to give some effect to the variable
+   -Variable is represented with slightly tilde right side
+   -Always put the variable inside the var tag.
+   Syntax;-
 
+   3.pre --pre formatting tags
+     ---print content as it as.
+  4.KBD--KEYBOARD Input
+   ---used to represent content taken from user input
+    --paired Tag
+    Syntax:-
+      <kbd></kbd>
+  
+
+  ---------Class------------------
+      -Attribute to give effects to the elements in html document.
+      -you can apply effects to different elements
+   -inside single html doc.
+      -class is a collection of property name and property value.
+       Syntax:-
+          -use style tag inside head tag.
+      dot(.)classname{
+        property name:property value.
+        .......
+        ....
+        ....
+      }
+      class concept is used in:-
+      -Internal
+      -External
+      -Jvascript
+
+-- BookMark
+    -used to jump from point to another point
+    -In hard dicuments you can use the concept of book mark by placing some tag from wgere you want to continue text
+    -In soft Documents you use jumping statement(C language)
+    -In Html documrent you can achieve the concept of book mark with the help of ID concept
+    -Syntax:
+         -create one link by which you can reach to specific point.
+         -Link can be on text or other content
+         -create Link with anchor tag.
