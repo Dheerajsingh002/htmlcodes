@@ -78,3 +78,37 @@ HTML Caomputer Code:-
          -create one link by which you can reach to specific point.
          -Link can be on text or other content
          -create Link with anchor tag.
+
+
+  --HTML FORM:-
+   -Form is type of container in which if youneant to get the details from the user
+--Details:
+  . Text
+  . Text box -Email,password.
+  .Radio -Gender
+  .Dropdownlist -Country name
+  .state name
+  .city name
+  .Fileupload--
+  .Image
+  .Document
+  --you can use more than one form inside HTML Document
+  --Avoid Using Nesting form
+  --If you are using more than one form then form must be uniquely identified.
+--Tag
+ <form></form>
+ --Attributes
+   -accept-charser: used to accept the character encoding method
+   -action: when be click on submit button then the form redirect which location(For Redirecting to page)
+   -name :for the reference purpose same as id(it is used to give the name of the form)
+   -name in input tag-to get the data in ther form of url on other page.
+   query String:-
+   ? -Starting of query String
+   method:-
+     .get :-Not secure
+       -dont pass sensitive data
+       -small amount of data can be pass
+       -2048 Characters use in this method
+      .post :-Secure  Data
+    . Autocomplete
+    .novalidate
