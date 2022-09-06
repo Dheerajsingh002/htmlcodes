@@ -112,3 +112,34 @@ HTML Caomputer Code:-
       .post :-Secure  Data
     . Autocomplete
     .novalidate
+    -Target
+      -_blank
+      -_top
+      -_self
+      -_parent
+      -_custom
+
+--Jvascript:-
+ javascript is a object based programming langauage
+  -object oriented:-
+   class
+   object
+   polymorphism
+   Abstraction
+   Inheritance
+   Encapsulation
+  -object based 
+  -Inbuilt
+  -Do not achieve object oriented concepts
+   -javascript is object Based.
+      -To make page dymnamic
+      -To get the data during run time
+      -To display data during run time
+      -To make pages user friendly
+1.to represent the content in the elements during run time.
+2.Giving Formating to elements with javascript.
+3.cssText--property --parent--cssStyleDeclaration
+    -value---String
+4.
+    
+
