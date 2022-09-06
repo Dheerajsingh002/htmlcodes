@@ -8,11 +8,13 @@
 </head>
 <body>
     <div id="div1"></div>
+    <button type="button" onclick="getContent()" >Click me  to get content</button>
+    <!-- <div id="div1"></div>
     <p id="p1"></p>
     <span id="span1"></span>
     <div id="div2">hello world</div>
     <p id="p2">First way to implement javascript</p>
-    <span id="span2">Representing content in more than one element</span>
+    <span id="span2">Representing content in more than one element</span> -->
     <script>
         //Logic
         // document.getElementById("div1").innerHTML="hello world";
@@ -24,6 +26,9 @@
         // document.getElementById("div2").style.margin="10px";
         // document.getElementById("div2").style.padding="10px";
         document.getElementById("div2").style.cssText="color:red;background-color:yellow;border:5px solid black;margin:10px;padding:10px";
+        function getContent(){
+            document.getElementById("div1").innerHTML="Representing content in more than one element";
+        }
 
     </script>
 </body>
