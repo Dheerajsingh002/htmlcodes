@@ -216,5 +216,12 @@ element name:pseudo class{
       border:3px solid red;
      }
 -------------- Form Level Pseudo Classes ----------- 
-
+1.focus
+2.Required
+3.Enabled
+4.Disabled
+5.read-only
+6.read-write
+7-single-button
+8-double-button
 
