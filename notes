@@ -141,6 +141,80 @@ HTML Caomputer Code:-
 3.cssText--property --parent--cssStyleDeclaration
     -value---String
 4.with Event,Function
-5.
-    
+------Block and Inline Elements:-
+  Block:-
+    1.It returns new line
+    2.it takes maximum width according to screen
+  Inline:-
+    1.No new line returns
+    2.Take width according to content size
+  Formating:-
+    Tag        Block       Inline
+    b                         y
+    i                         y
+    strong                    y
+
+
+-----Topic Covered
+   1.Basic of Html
+   2.Elements
+   3.Attributes
+   4.Quotation Tags
+   5.Formatting Tags
+   6.Class
+   7.Id--Bookmark
+   8.Colors
+   9.Jvascript
+   10.Links and Images
+   11.Iframes
+   12.CharsetK
+   13.Layout
+   14.Entities :-
+      .Symbols
+      .Emojis
+  15.Semantic Tags:-To increase the readiability
+   16.URI Code
+      URL:-
+      URI:- Uniform Resource I dentifier
+              .Used to give code to the Special characters in the URL .
+            Example:-
+Css Pseudo classes:-
+    - These are used to main purposes:-
+       1.Htnl Element Hidden Adress is picked and give formatting.
+       2.On the basis satte of the Html Element.
+       ---Nearly 33 pseudo classes.
+    -Use the Pseudo classe inside the style tag.
+         --Categories:-
+           a.Anchor
+           b.Form
+           c.Common
+           d.Variable
+---Anchor  Pseudo Classes------
+-Classes used with Anchor element.
+---syntax:
+element name:pseudo class{
+  property name:property value;
+}
+
+-----------Common Pseudo Classes -------------
+-1- first-child
+-2- last-child
+-3- nth-child(1) --Top to Bottom  (2n)   (n+1)  n= 0,1,2,3,4,5----.
+-4- nth-last-child(1,2,3,4,5-------) (3n+1) -- Bottom to Top
+-: pseudo classes
+-::- with elemennts
+-p:nth-of-type(n+2,3n-1)  only p elements  (bootom top)(top to bottom) where n= 0,1,2,3,4,5---.(sequence dos'nt  matter)(only containners)
+-nth-last-of-type()  (Top to bottom) (sequence doesn't matter)
+- not() (method)
+  example: 
+         p:not(#H){
+          background-color:crimson;
+         }
+-empty (p:empty)
+ example:
+     p:empty{
+      border:3px solid red;
+     }
+-------------- Form Level Pseudo Classes ----------- 
+
 
